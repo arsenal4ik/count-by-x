@@ -1,0 +1,19 @@
+{
+  "name": "count-by-x",
+  "version": "1.0.0",
+  "description": "https://www.codewars.com/kata/5513795bd3fafb56c200049e",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsenal4ik/count-by-x.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsenal4ik/count-by-x/issues"
+  },
+  "homepage": "https://github.com/arsenal4ik/count-by-x#readme"
+}
