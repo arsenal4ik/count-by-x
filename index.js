@@ -1,8 +1,10 @@
-function getAverage(marks) {
-    let sum = 0;
-    for (i = 0; i < marks.length; i++) {
-        sum += marks[i];
+function partsSums(ls) {
+    let finalArray = [];
+    for (let i = 0; i < ls.length;) {
+        let sum = ls.reduce((p, c) => p + c, 0);
+        finalArray.push(sum);
+        ls.shift();
     }
-    let average = Math.floor (sum / marks.length);
-    return average
+    finalArray.push(0);
+    return finalArray;
 }
